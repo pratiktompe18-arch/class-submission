@@ -1,0 +1,51 @@
+list1 = ["apple","banana","cherry"]
+list1.insert(1, "orange")
+print("insert function:", list1)
+
+list2 = ["apple","banana","cherry"]
+list2.append("peach")
+print("append function:", list2)
+
+list3 = ["apple","banana","cherry"]
+list3.remove("banana")
+print("remove function:", list3)
+
+list4 = ["apple","banana","cherry"]
+list4.pop(1)
+print("pop function:", list4)
+
+list5 = ["apple","watermelon","kiwi","mango","peach"]
+list5.sort()
+print("sort function:", list5)
+insert function: ['apple', 'orange', 'banana', 'cherry']
+append function: ['apple', 'banana', 'cherry', 'peach']
+remove function: ['apple', 'cherry']
+pop function: ['apple', 'cherry']
+sort function: ['apple', 'kiwi', 'mango', 'peach', 'watermelon']
+tuple1 = ("apple", "banana", "cherry")
+print("length tuple", len(tuple1))
+
+tuple2 = ("apple", "banana", "cherry")
+y = ("orange",4)
+tuple2 += y
+print("add tuple function:", tuple2)
+
+tuple3 = ("apple","banana","cherry")
+for x in tuple3:
+  print("Loop Through a Tuple example:", x)
+
+tuple4 = ("a", "b" , "c")
+tuple5 = (1, 2, 3)
+tuple6 = tuple4 + tuple5
+print("joining two tuples example:", tuple6)
+
+tuplelist = ("apple","banana","cherry")
+tuple7 = tuplelist * 2
+print("multiply tuples example:", tuple7)
+length tuple 3
+add tuple function: ('apple', 'banana', 'cherry', 'orange', 4)
+Loop Through a Tuple example: apple
+Loop Through a Tuple example: banana
+Loop Through a Tuple example: cherry
+joining two tuples example: ('a', 'b', 'c', 1, 2, 3)
+multiply tuples example: ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
